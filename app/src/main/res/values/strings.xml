@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="bienvenido">Bienvenido!!</string>
+    <string name="seleccione_un_usuario">Seleccione un usuario:</string>
+    <string name="mensaje">Mensaje:</string>
+    <string name="multiautocompletetextview">MultiAutoCompleteTextView</string>
+    <string name="introduce_tu_usuario">Introduce tu Usuario:</string>
+    <string name="enviar">Enviar</string>
+    <string name="bienvenido_chat">Bienvenido Chat!!</string>
+    <string name="introduce_el_usuario">Introduce el Usuario</string>
+    <string name="bienvenido_a_tu_chat">Bienvenido a tu Chat</string>
+    <string name="button">Button</string>
+    <string name="entrar">Entrar</string>
+    <string name="hola">Hola!!</string>
+</resources>
