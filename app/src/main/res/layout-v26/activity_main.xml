@@ -8,19 +8,9 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:text="@string/introduce_tu_usuario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtUsuario" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintHorizontal_bias="0.097" app:layout_constraintVertical_bias="0.176"
-            android:textSize="18sp" android:textColor="@android:color/black" android:textStyle="bold"/>
-    <TextView
             android:layout_width="wrap_content"
             android:layout_height="57dp"
-            android:text="@string/bienvenido"
+            android:text="@string/hola"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -28,14 +18,14 @@
             android:id="@+id/txtHola" android:textSize="30sp" android:textColor="@color/colorAccent"
             android:textStyle="bold" android:textAlignment="center"/>
     <TextView
-            android:text="@string/seleccione_un_usuario"
+            android:text="@string/introduce_el_usuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txtSelect" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintHorizontal_bias="0.098" app:layout_constraintVertical_bias="0.357"
+            app:layout_constraintHorizontal_bias="0.14" app:layout_constraintVertical_bias="0.237"
             android:textSize="18sp" android:textColor="@android:color/black" android:textStyle="bold"/>
     <TextView
             android:text="@string/mensaje"
@@ -45,10 +35,10 @@
             android:layout_marginTop="220dp"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginEnd="96dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.446"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.638"
             android:textSize="18sp" android:textColor="@android:color/black" android:textStyle="bold"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/txtArea_Msg"
-            app:layout_constraintVertical_bias="1.0"/>
+            app:layout_constraintVertical_bias="0.864"/>
     <MultiAutoCompleteTextView
             android:layout_width="337dp"
             android:layout_height="96dp"
@@ -56,12 +46,12 @@
             android:labelFor="@+id/txtMensaje"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.617" android:layout_marginEnd="8dp"
+            app:layout_constraintVertical_bias="0.561" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.362"
+            app:layout_constraintStart_toStartOf="parent"
             android:textAlignment="textStart"/>
     <Button
-            android:text="Enviar"
+            android:text="@string/enviar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnEnviar" android:layout_marginBottom="8dp"
@@ -75,10 +65,10 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/usuario" android:layout_marginEnd="8dp"
+            android:id="@+id/destinatario" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.115"
-            android:layout_marginTop="152dp"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.164"
+            android:layout_marginTop="212dp"
             app:layout_constraintTop_toTopOf="parent" android:autofillHints=""/>
 
 
